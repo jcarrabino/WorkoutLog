@@ -1,0 +1,57 @@
+table#workouts {
+    border: 1px solid black;
+}
+table#workouts td {
+    border: 1px solid black;
+}
+table#workouts th {
+    border: 1px solid black;
+}
+label {
+    display: block;
+}
+
+body{
+    position: absolute;
+    width: 50%; /* Set your desired with */
+    float:left;
+
+    /* You will not need the below, its only for styling   purposes. */
+    padding: 0px;
+    text-align: center;
+        
+    margin-left: 5%;
+    margin-right: 50%;
+}
+
+
+#form{ 
+    border-radius: 25px;
+    background-color:white;
+    position: absolute;
+    width: 60%; /* Set your desired with */
+    float:left;
+    margin-top:10%;
+    margin-bottom:15%;
+    margin-left: 20%;
+    margin-right: auto;
+    
+}
+
+#tDiv{
+    position: relative;
+    margin-top: 75%;
+    margin-bottom: 20%
+}
+
+.exTable{
+    border-radius: 25px;
+    background-color:white;
+    position: relative;
+    width: 90%; /* Set your desired with */
+    float:center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+ padding:10px;
+}

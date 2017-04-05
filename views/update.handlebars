@@ -1,0 +1,31 @@
+<div id='form'>
+<h2>Update Selected Exercise</h2>
+
+<form id = 'workoutForm' method ="POST">
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name" value="{{results.[0].name}}"">
+
+    <label for="reps">Reps:</label>
+    <input id="reps" type="text" name="reps" value={{results.[0].reps}}>
+
+    <label for="weight">Weight:</label>
+    <input id="weight" type="text" name="weight" value={{results.[0].weight}}>
+
+    <label for="date">Date:</label>
+    <input id="date" type="date" name="date" value={{results.[0].date}}>
+
+    <br>
+    <label>Units:<br>(checked = lbs, unchecked = kg) </label>
+    <input id="lbs" type="checkbox" name="lbs" value="{{results.[0].lbs}}" {{checked}}>
+    <br><br>
+    
+    <input type="hidden" name="id" value={{results.[0].id}}>
+    <input id="add" type="submit" name="add" value="add">
+<br><br></div>
+</form>
+
+<br><br><br>
+<div id='tDiv'>
+    <script src="/js/addRow.js"></script>
+    <script src="/js/buildTable.js"></script>
+</div>

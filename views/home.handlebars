@@ -1,0 +1,33 @@
+<div id='form'>
+<h1>Workout Logger</h1>
+<h2>Enter Completed Exercise: </h2>
+
+<form method ="POST" id='workoutForm' >
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name">
+
+    <label for="reps">Reps:</label>
+    <input id="reps" type="text" name="reps">
+
+    <label for="weight">Weight:</label>
+    <input id="weight" type="text" name="weight">
+
+    <label for="date">Date:</label>
+    <input id="date" type="date" name="date">
+    
+    <label for='checker'>Units:<br>(checked = lbs, unchecked = kg)</label>
+
+    
+    <input id="checker" type="checkbox" name="lbs" value="true">
+    <br>
+    <br>
+    <input id="add" type="submit" name="add" value="add">
+   
+</form>
+<br>
+</div>
+<br><br><br>
+<div id='tDiv'>
+    <script src="/js/addRow.js"></script>
+    <script src="/js/buildTable.js"></script>
+</div>
